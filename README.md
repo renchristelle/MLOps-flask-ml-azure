@@ -22,7 +22,7 @@ source ~/.flask-ml-azure/bin/activate
 
 ## To run it in Azure Pipelines
 
-1.  Refer to [Azure Official Documentation guide here throughout](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
+1.  Refer to [Azure Official Documentation guide](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
 
 2. Launch Azure Shell  
 
@@ -47,10 +47,10 @@ source ~/.flask-ml-azure/bin/activate
 
 9.  Verify Machine Learning predictions work by running `make_predict_azure_app.sh` (you might need to change the name of your service to match the deployed prediction)
 
-10. Create an Azure DevOps project and connect to Azure Resource Manager (refer to the [official documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops))
+10. Create an Azure DevOps project and connect to Azure Resource Manager (refer to the [Official Documentation guide](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops))
 
-11. Create new Python Pipeline with Github Integration (refer to ther [official documentation](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops#create-a-python-specific-pipeline-to-deploy-to-app-service))
+11. Create new Python Pipeline with Github Integration (refer to ther [Official Documentation guide](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops#create-a-python-specific-pipeline-to-deploy-to-app-service))
 
-This process will create a YAML file that looks roughly like the YAML output shown below.  Refer to the [official Azure Pipeline YAML documentation for more information about it](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops#yaml-pipeline-explained).
+This process will create a YAML file that looks roughly like the YAML output shown below.  Refer to the [official Azure Pipeline YAML documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops#yaml-pipeline-explained) for more information about it.
 
 12. Verify Continuous Delivery of Azure Pipelines by modifying an element in the repository
