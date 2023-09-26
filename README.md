@@ -39,9 +39,7 @@ source ~/.flask-ml-azure/bin/activate
 
 6.  Run `make install`
 
-7.  Create an app service and initially deploy your app in Cloud Shell
-
-`az webapp up -n <your-appservice>`
+7.  Create an app service and initially deploy your app in Cloud Shell `az webapp up -n <your-appservice>`
 
 8. Verify deployed application works by browsing to deployed url: `https://<your-appservice>.azurewebsites.net/`
 
