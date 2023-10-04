@@ -65,7 +65,7 @@ def predict():
     except Exception as e:
         LOG.error("Error loading model: %s", str(e))
         LOG.error("Exception traceback: %s", traceback.format_exc())
-    return "Model not loaded"
+        return "Model not loaded"
 
     json_payload = request.json
     LOG.info("JSON payload: %s json_payload")
