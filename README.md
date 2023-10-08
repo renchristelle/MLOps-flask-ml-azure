@@ -33,7 +33,7 @@ source ~/.flask-ml-azure/bin/activate
 
 2. Launch Azure Shell  
 
-3.  Create Github Repo with Azure Pipelines Enabled 
+3.  Create Github Repo (with Azure Pipelines Enabled)
 
 4. Clone the repo into Azure Cloud Shell (set up SSH key if needed)
 
