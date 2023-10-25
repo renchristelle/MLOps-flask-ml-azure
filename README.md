@@ -1,5 +1,5 @@
-# MLOps-flask-ml-azure-serverless
-This is a repository for deploying a Flask Machine Learning Application on Azure App Services
+# MLOps Flask Application on Azure App Service with Azure Pipelines 
+This is a repository for deploying a Flask Machine Learning Application on Azure App Services with Azure Pipelines
 
 
 This project is built with python 3.9
