@@ -60,5 +60,7 @@ This process will create a [YAML file](https://docs.microsoft.com/en-us/azure/de
 4. You can now verify Continuous Delivery of Azure Pipelines by modifying an element in the repository
 
 
-Sources: 
+<!-- 
+Ressources:
 https://github.com/noahgift/flask-ml-azure-serverless/tree/master
+-->
