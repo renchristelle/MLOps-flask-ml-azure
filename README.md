@@ -25,10 +25,10 @@ source ~/.flask-ml-azure/bin/activate
 4.  In a separate shell run: `./make_prediction.sh`
 
 
-## To run it in Azure (Refer to [Azure Official Documentation guide](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
-
-
-#### Create an App Service using Azure Cloud Shell from [Azure Portal](https://portal.azure.com/#home) )
+## To run it in Azure (Refer to [Azure Official Documentation guide](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops))  
+  
+  
+#### Create an App Service using Azure Cloud Shell from [Azure Portal](https://portal.azure.com/#home)  
 
 1.  Clone the Github Repo (with Azure Pipelines Enabled) into Azure Cloud Shell (set up SSH key if needed)
 
@@ -45,9 +45,9 @@ source ~/.flask-ml-azure/bin/activate
 
 5.  Verify deployed application works by browsing to deployed url: `https://<your-appservice>.azurewebsites.net/`.
 
-6.  Verify Machine Learning predictions work by running `make_predict_azure_app.sh` (you might need to change the name of your service to match the deployed prediction)
+6.  Verify Machine Learning predictions work by running `make_predict_azure_app.sh` (you might need to change the name of your service to match the deployed prediction)  
 
-#### Run Python pipeline in [Azure DevOps](https://dev.azure.com/christelleren)
+#### Run Python pipeline in [Azure DevOps](https://dev.azure.com/christelleren)  
 
 1.  Create an Azure DevOps project
 
